@@ -1,5 +1,7 @@
 Decimal To Binary Calculator  
+============================
 Binary to Decimal Calculator
+============================
 Binary To Decimal Javascript Utility
 ==========
 
