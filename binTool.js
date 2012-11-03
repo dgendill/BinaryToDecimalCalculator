@@ -60,7 +60,7 @@ var binTool = (function() {
 				type = log2;
 			}
 
-			log2 = Math.max(log2, type);
+			log2 = Math.max(log2, type-1);
 			
 			for(var l2 = log2; l2 >= 0; l2--) {
 				power = Math.pow(2, l2);
