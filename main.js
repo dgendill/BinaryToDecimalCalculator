@@ -19,7 +19,7 @@ $(document).ready(function() {
 
 	var $decimal = $('#Decimal');
 	var $decimalInput = $('input', $decimal);
-	
+
 	var $selectAll = $('.selectAll');
 
 	// --------------
@@ -31,8 +31,9 @@ $(document).ready(function() {
 	});
 
 	$datatype.on('change', function() {
+		//updateBinary($binaryInput.val());
 		updateDecimal($decimalInput.val());
-		updateBinary($binaryInput.val());
+
 
 	});
 
