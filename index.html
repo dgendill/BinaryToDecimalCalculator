@@ -4,13 +4,6 @@
 	<title>Name of Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 
-	<!--
-	jQuery Mobile Styles
-	<link rel="stylesheet" type="text/css" href="styles/jquery.mobile.custom.min.css">
-	<link rel="stylesheet" type="text/css" href="styles/jquery.mobile.custom.structure.min.css">
-	<link rel="stylesheet" type="text/css" href="styles/jquery.mobile.custom.theme.min.css">
-	-->
-
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	
 	<!--
@@ -18,21 +11,46 @@
 	https://code.google.com/apis/libraries/devguide.html
 	-->
 	
-	<!--
-	jQuery
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-	-->
 
 	<!--
 	jQuery Mobile
 	<script src="libraries/jquery.mobile.custom.min.js"></script>	
 	-->
-
-	<script src="text/javascript" src="main.js"></script>
+	<script src="binTool.js"></script>
+	<script src="main.js"></script>
 </head>
 <body>
 
-<p>Test.</p>
+<form>
+
+	<h1>Decimal-Binary Conversion with C Memory Data Types</h1>
+	
+	<div id="DataType">
+		<label for="datatype">Data Type</label>
+		<select>
+			<option value="8">CHAR</option>
+			<option value="16">SHORT</option>
+			<option value="16">INT16</option>
+			<option value="32">INT32</option>
+			<option value="32">LONG</option>
+		</select>
+	</div>			
+
+	<div id="Binary">
+		<label for="binary">Binary</label>
+		<a class="selectAll" href="#">select</a>
+		<input tabindex="1" type="tel" name="binary"/>
+	</div>
+
+	<div id="Decimal">
+		<label for="decimal">Decimal</label>
+		<a class="selectAll" href="#">select</a>
+		<input tabindex="2" type="tel" name="decimal"/>
+	</div>
+
+</form>
+
 
 </body>
 <html>

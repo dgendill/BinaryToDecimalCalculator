@@ -38,3 +38,69 @@ blockquote:before, blockquote:after, q:before, q:after {
 table { border-collapse: collapse; 	border-spacing: 0; }
 
 /* End CSS Reset */
+body {
+	font-family:Verdana;
+}
+h1 {
+	font-size:1.1em;
+	font-weight:bold;
+	text-align:left;
+	text-transform:uppercase;
+	margin:1em 0;
+}
+body form {
+	width: 90%;
+	margin:0 auto;
+	text-align:center;
+}
+#Binary, #Decimal, #DataType {
+	float:left;
+	width: 100%;
+	background:#efefef;
+	margin:0 auto;
+	padding:10px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.keypad { display:none; }
+input {
+	font-size:.7em;
+	width:100%;
+}
+
+button {
+	padding:0 26px;
+	margin-left:5px;
+	font-size:1.2em;
+	font-weight:bold;
+	float:left;
+}
+
+@media only screen and (min-width: 800px) {
+	h1 {
+		text-align:center;
+	}
+	body form {
+		width: 800px;
+	}
+	#DataType {
+		width:98%;
+		margin-left:1%;
+		margin-bottom:1em;
+		border-radius:10px;
+	}
+	#Binary, #Decimal {
+		width:48%;
+		margin-left:1%;
+		margin-right:1%;
+		border-radius:10px;
+	}
+
+	.keypad {
+		display:block;
+	}
+
+}
+
+
